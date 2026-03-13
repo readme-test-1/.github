@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/aave-logo.png" alt="Aave DAO" width="600">
+  <img src="https://raw.githubusercontent.com/readme-test-1/.github/main/assets/aave-logo.png" alt="Aave DAO" width="600">
 </p>
 
 <h1 align="center">Aave DAO</h1>
