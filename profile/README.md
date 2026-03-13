@@ -22,7 +22,7 @@
   <tr>
     <td><a href="https://github.com/aave-dao/aave-v3-origin">aave-v3-origin</a></td>
     <td>The canonical Aave V3 codebase (v3.1 through v3.6). Foundry-based, formally verified, and the source of truth for all production pool deployments across 12+ networks.</td>
-    <td><a href="https://github.com/aave-labs">Aave Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
     <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
   </tr>
   <tr><td colspan="4"><h3>GHO</h3></td></tr>
