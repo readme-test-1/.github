@@ -8,55 +8,129 @@
 
 ---
 
-### Core Protocol
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-v3-origin](https://github.com/aave-dao/aave-v3-origin) | Aave v3.6 protocol | [Aave Labs](https://github.com/aave-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-price-feeds](https://github.com/aave-dao/aave-price-feeds) | Custom price feeds for the Aave protocol | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-v3-risk-stewards](https://github.com/aave-dao/aave-v3-risk-stewards) | Smart contracts to constrain risk parameter changes on Aave v3 | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### GHO
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [gho-origin](https://github.com/aave-dao/gho-origin) | GHO, Aave's decentralised stablecoin | [Aave Labs](https://github.com/aave-labs) | [Aave Labs](https://github.com/aave-labs), [TokenLogic](https://github.com/TokenLogic-com-au), [BGD Labs](https://github.com/bgd-labs) |
-| [GhoDirectMinter](https://github.com/aave-dao/GhoDirectMinter) | GHO facilitator to mint and supply / withdraw and burn from Aave pools | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### Governance
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-governance-v3](https://github.com/aave-dao/aave-governance-v3) | Aave Governance v3, multi-chain voting powered by storage proofs | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-proposals-v3](https://github.com/aave-dao/aave-proposals-v3) | Repository for Aave governance proposal payloads | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-proposals-reports](https://github.com/aave-dao/aave-proposals-reports) | Security reports for on-chain Aave governance proposals | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [seatbelt-gov-v3](https://github.com/aave-dao/seatbelt-gov-v3) | Seatbelt - automated safety checks for governance proposals | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### Cross-Chain Infrastructure
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-delivery-infrastructure](https://github.com/aave-dao/aave-delivery-infrastructure) | a.DI - abstraction layer for cross-chain communication | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [adi-deploy](https://github.com/aave-dao/adi-deploy) | Deployment and maintenance framework for a.DI | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### Umbrella
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-umbrella](https://github.com/aave-dao/aave-umbrella) | Aave Umbrella staking and slashing smart contracts | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-umbrella-ui](https://github.com/aave-dao/aave-umbrella-ui) | DAO-owned web interface for Aave Umbrella | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### Tooling
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-helpers](https://github.com/aave-dao/aave-helpers) | Testing and development utilities for Aave protocol | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-address-book](https://github.com/aave-dao/aave-address-book) | Solidity registry for all Aave ecosystem smart contract addresses | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-| [aave-permissions-book](https://github.com/aave-dao/aave-permissions-book) | Index and visualisation of permissions across Aave smart contracts | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
-
-### Resources
-
-| Repository | Description | Created by | Maintained by |
-|---|---|---|---|
-| [aave-brand-kit](https://github.com/aave-dao/aave-brand-kit) | Aave brand assets and visual identity guidelines | [Aave Labs](https://github.com/aave-labs) | [Aave Labs](https://github.com/aave-labs) |
-| [bored-guides](https://github.com/aave-dao/bored-guides) | Guides for different Aave ecosystem workflows | [BGD Labs](https://github.com/bgd-labs) | [BGD Labs](https://github.com/bgd-labs) |
+<table>
+<thead>
+  <tr>
+    <th width="220">Repository</th>
+    <th width="480">Description</th>
+    <th width="130">Created by</th>
+    <th width="220">Maintained by</th>
+  </tr>
+</thead>
+<tbody>
+  <tr><td colspan="4"><h3>Core Protocol</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-v3-origin">aave-v3-origin</a></td>
+    <td>Aave v3.6 protocol</td>
+    <td><a href="https://github.com/aave-labs">Aave Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr><td colspan="4"><h3>GHO</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/gho-origin">gho-origin</a></td>
+    <td>GHO, Aave's decentralised stablecoin</td>
+    <td><a href="https://github.com/aave-labs">Aave Labs</a></td>
+    <td><a href="https://github.com/aave-labs">Aave Labs</a>, <a href="https://github.com/TokenLogic-com-au">TokenLogic</a>, <a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/GhoDirectMinter">GhoDirectMinter</a></td>
+    <td>GHO facilitator to mint and supply / withdraw and burn from Aave pools</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr><td colspan="4"><h3>Governance</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-governance-v3">aave-governance-v3</a></td>
+    <td>Aave Governance v3, multi-chain voting powered by storage proofs</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-delivery-infrastructure">aave-delivery-infrastructure</a></td>
+    <td>a.DI - abstraction layer for cross-chain communication</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/adi-deploy">adi-deploy</a></td>
+    <td>Deployment and maintenance framework for a.DI</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-proposals-v3">aave-proposals-v3</a></td>
+    <td>Repository for Aave governance proposal payloads</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-proposals-reports">aave-proposals-reports</a></td>
+    <td>Security reports for on-chain Aave governance proposals</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr><td colspan="4"><h3>Umbrella</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-umbrella">aave-umbrella</a></td>
+    <td>Aave Umbrella staking and slashing smart contracts</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-umbrella-ui">aave-umbrella-ui</a></td>
+    <td>DAO-owned web interface for Aave Umbrella</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr><td colspan="4"><h3>Tooling</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-helpers">aave-helpers</a></td>
+    <td>Testing and development utilities for Aave protocol</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-address-book">aave-address-book</a></td>
+    <td>Solidity registry for all Aave ecosystem smart contract addresses</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-permissions-book">aave-permissions-book</a></td>
+    <td>Index and visualisation of permissions across Aave smart contracts</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-price-feeds">aave-price-feeds</a></td>
+    <td>Custom price feeds for the Aave protocol</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-v3-risk-stewards">aave-v3-risk-stewards</a></td>
+    <td>Smart contracts to constrain risk parameter changes on Aave v3</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/seatbelt-gov-v3">seatbelt-gov-v3</a></td>
+    <td>Seatbelt - automated safety checks for governance proposals</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+  <tr><td colspan="4"><h3>Resources</h3></td></tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/aave-brand-kit">aave-brand-kit</a></td>
+    <td>Aave brand assets and visual identity guidelines</td>
+    <td><a href="https://github.com/aave-labs">Aave Labs</a></td>
+    <td><a href="https://github.com/aave-labs">Aave Labs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/aave-dao/bored-guides">bored-guides</a></td>
+    <td>Guides for different Aave ecosystem workflows</td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+    <td><a href="https://github.com/bgd-labs">BGD Labs</a></td>
+  </tr>
+</tbody>
+</table>
