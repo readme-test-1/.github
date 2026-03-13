@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aave-dao/aave-brand-kit/main/Logo/Ghost%20Logomark/Ghost%20Gradient.png" alt="Aave" height="120">
+  <img src="assets/aave-logo.png" alt="Aave DAO" width="600">
 </p>
 
 <h1 align="center">Aave DAO</h1>
